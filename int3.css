@@ -1,0 +1,139 @@
+.class1{
+    position: absolute;
+    height: 400px;
+    left: 10px;
+    right: 10px;
+    top: 40px;
+    background-image: url(pic.jpg);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+.button:hover{
+    background-color: blueviolet;
+}
+
+.ps1{
+    position: relative;
+    top: 450px;
+}
+.class2{
+    height: 200px;
+    left: 10px;
+    right: 10px;
+    top: 500px;
+    background-image: linear-gradient( to right, blue, red, yellow);
+}
+
+.float1{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    display: inline;
+}
+
+.float2{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding: 10px;
+}
+
+
+.xy{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 50px;
+    align-content: center;
+    justify-content: center;
+}
+
+.cards{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+@media (max-width:400px)
+{
+  .grid{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+  }    
+}
+
+.class3{
+    height: 150px;
+    position: absolute;
+    left: 10px;
+    right: 20px;
+    background-color: lightgreen;
+}
+
+.click{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    position: relative;
+    top: 20px;
+    border-radius: 5px;
+}
+
+@media (max-width:850px) {
+    .click {
+        background-color: bisque;
+    }
+}
+
+@media (max-width:400px) {
+    .click{
+        background-color: blueviolet;
+    }
+}
+
+.ps2{
+    position: relative;
+    top: 200px;
+}
+.flex{
+    height: 200px;
+    width: 1000px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    
+}
+
+.cod{
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+    margin: 15px;
+}
